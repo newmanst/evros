@@ -1,7 +1,11 @@
-# evros
+# EVROS Data Processing 
 
-The files here do the sequence parsing of the fastq files in the work on "Extending the dynamic range of biomarker quantification through molecular equalization" presented here:
+The files here do:
+1) **qPCR_processing**: The qPCR raw processing to Cqs and present demonstration of converting to DNA concentrations given a calibration file 
+2) **NGS_processing**: The sequence parsing of the fastq files in the work on "Extending the dynamic range of biomarker quantification through molecular equalization" presented here:
 https://www.biorxiv.org/content/10.1101/2023.02.07.527534v1
+
+The steps for NGS processing are as follows: 
 
 ## STEP 1: Folder set up. 
 Establish folder that will contain all sequencing data. I usually save them in experiment folder with a name “NGS”.  Copy perl files into folder. Make folder for each sequencing experiment. Download fastqs from Basespace. Put raw sequencing files into those folders. (Note you can update the perl script to not have to be copied this way) 
